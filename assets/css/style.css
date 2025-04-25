@@ -1,0 +1,159 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Apply full-page reset and default style */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Hero container with background */
+.hero {
+  background: url('../images/perro-fondo.jpg') no-repeat center center/cover;
+
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  
+  background-attachment: fixed;
+  color: #333;
+
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: url('../assets/images/perro2.jpg') no-repeat center center/cover;
+  background-attachment: fixed;
+  color: #333;
+}
+
+
+
+
+
+/*BARRA DE ARRIBA*/
+
+.navbar-brand {
+  font-family: 'Macondo', cursive;
+  font-size: 1.7rem;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffeeba;
+}
+
+
+.navbar-nav .nav-link.active {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+
+/*BARRA DE ARRIBA*/
+
+/*Seccion About Us*/
+#about {
+  background: #f8f9fa; /* Soft light gray background */
+}
+
+#about h2 {
+  font-family: 'Macondo', cursive;
+  font-size: 2.5rem;
+}
+
+#about i {
+  color: #28a745; /* Success green */
+}
+/*Seccion About Us*/
+
+/*CARDS DE PRODUCTOS*/
+
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-family: 'Macondo', cursive;
+}
+
+/*botones de las cards*/
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-outline-success {
+  font-weight: 500;
+  border-width: 2px;
+  padding: 0.5rem 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-success:hover {
+  background-color: #198754;
+  color: #fff;
+}
+
+/*botones de las cards*/
+
+
+/*CARDS DE PRODUCTOS*/
+
+/*segunda pagina cats*/
+/*botton del home de regreso*/
+.btn-outline-success {
+  font-weight: 500;
+  border-width: 2px;
+  font-size: 1.05rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-success:hover {
+  background-color: #198754;
+  color: #fff;
+}
+
+/*botton del home de regreso*/
+
+/*diseño cards*/
+.btn-outline-success {
+  font-weight: 500;
+  border-width: 2px;
+  padding: 0.5rem 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-success:hover {
+  background-color: #198754;
+  color: #fff;
+}
+/*diseño cards*/
